@@ -45,6 +45,13 @@ button[class*="button"]:hover{
     margin-top: -18px;
 }
 
+.hero__main-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .main-content__text {
     display: flex;
     flex-direction: column;
@@ -61,8 +68,8 @@ button[class*="button"]:hover{
 }
 
 .main-content__image {
-    margin-top: 80px;
-    margin-left: calc(var(--index) * 18.5);
+    margin-top: 135px;
+    margin-left: -80px;
     z-index: 100;
     position: absolute;
 }
@@ -99,8 +106,8 @@ button[class*="button"]:hover{
 
 .carousel__images{
     display: inline-block;
-    width: calc(100% / 4);
-    height: 490px;
+    width: calc(var(--index) * 20);
+    height: calc(var(--index) * 24);
     background-color: #e6e3df;
     /*border: 1px solid black;*/
     margin-left: 30px;
@@ -176,8 +183,10 @@ button[class*="button"]:hover{
 
 .genre-choice__container{
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 54px;
     margin: calc(var(--index) * 5) calc(var(--index) * 1);
+
 }
 
 .genre__block{
@@ -295,4 +304,15 @@ button[class*="button"]:hover{
 .contacts__email{
     font-size: calc(var(--index) * 1);
     letter-spacing: 2px;
+}
+
+.contacts__social-media{
+    display: flex;
+    gap: 40px;
+}
+
+.icons{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
 }
