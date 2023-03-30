@@ -59,7 +59,7 @@ assortmentButton.addEventListener('click', () => {
 })
 
 var aboutButton = document.querySelector('.about__button');
-var aboutBlock = document.querySelector('.history-article__container');
+var aboutBlock = document.querySelector('.about-us__container');
 
 aboutButton.addEventListener('click', () => {
     scrollTo(aboutBlock);

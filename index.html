@@ -42,7 +42,7 @@
 
                     <div class="hero__main-content">
                         <div class="main-content__image">
-                            <img src="/img/main-vinyl.png" alt="vinyl">
+                            <img src="./img/main-vinyl.png" alt="vinyl">
                         </div>
 
                         <div class="main-content__text">
@@ -87,22 +87,34 @@
 
                         <div class="genre-choice__container">
                             <div class="genre__block">
-                                <a href="/music category/Rock music category/index.html"><p>Rock</p></a>
+                                <a href="/music category/Rock music category/index.html">
+                                    <p>Rock</p>
+                                </a>
                             </div>
                             <div class="genre__block">
-                                <a href="/music category/Metal music category/index.html"><p>Metal</p></a>
+                                <a href="/music category/Metal music category/index.html">
+                                    <p>Metal</p>
+                                </a>
                             </div>
                             <div class="genre__block">
-                                <a href="/music category/Pop music category/index.html"><p>Pop</p></a>
+                                <a href="/music category/Pop music category/index.html">
+                                    <p>Pop</p>
+                                </a>
                             </div>
                             <div class="genre__block">
-                                <a href="/music category/Jazz music category/index.html"><p>Jazz</p></a>
+                                <a href="/music category/Jazz music category/index.html">
+                                    <p>Jazz</p>
+                                </a>
                             </div>
                             <div class="genre__block">
-                                <a href="/music category/Classic music category/index.html"><p>Classic</p></a>
+                                <a href="/music category/Classic music category/index.html">
+                                    <p>Classic</p>
+                                </a>
                             </div>
                             <div class="genre__block">
-                                <a href="/music category/Blues music category/index.html"><p>Blues</p></a>
+                                <a href="/music category/Blues music category/index.html">
+                                    <p>Blues</p>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -119,15 +131,16 @@
                                     <li>Luxembourg 16 Rue du Marche-aux-herbes</li>
                                     <li>Berlin, Zossener Str. 35</li>
                                     <li>Praha, Trojanova 9</li>
+                                    <li>Warsaw, Zabkowska 11</li>
                                 </ul>
                             </div>
                         </div>
                     </div>
 
-                    <div class="history-article__container">
-                        <div class="history-article__title">Wanna know more <br> about vinyl history?</div>
-                        <div class="history-article__link">
-                            <a href="/vinyl-history block/index.html">go ahead →</a>
+                    <div class="about-us__container">
+                        <div class="about-us__title">Know more about us</div>
+                        <div class="about-us__link">
+                            <a href="/about us block/index.html">go ahead →</a>
                         </div>
                     </div>
                 </div>
@@ -137,23 +150,71 @@
                 <div class="footer__container">
                     <div class="footer__content">
                         <div class="footer__contacts">
-                            <div class="contacts__title">You can contact with us:</div>
 
-                            <div class="contacts__email">vinylstore@gmail.com</div>
+                            <div class="main__form">
+                                <div class="form__title">Have a question?</div>
+                                <div class="form__caption">We answer on email!</div>
 
-                            <div class="contacts__social-media">
-                                <a class="icons" href="#"><ion-icon name="logo-instagram"></ion-icon></a>
-                                <a class="icons" href="#"><ion-icon name="logo-facebook"></ion-icon></a>
-                                <a class="icons" href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+                                <div class="form__container">
+                                    <form class="form__main" action="#" method="post">
+                                        <label for="name">
+                                            <p class="form__text">Your name</p>
+                                            <input type="text" name="yourname" id="name" class="form__input">
+                                        </label>
+                                        <br>
+
+                                        <label for="email">
+                                            <p class="form__text">Your email</p>
+                                            <input type="text" name="youremail" id="email" class="form__input">
+                                        </label>
+                                        <br>
+
+                                        <label for="question">
+                                            <p class="form__text">Your question</p>
+                                            <textarea name="question" id="question" cols="30" rows="10"
+                                                class="form__question"></textarea>
+                                        </label>
+
+                                        <div class="form__button-container">
+                                            <button class="form__btn" type="submit">Send</button>
+                                        </div>
+                                    </form>
+                                </div>
                             </div>
                         </div>
 
-                        <div class="footer__delivery">
-                            <div class="delivery__info">
-                                <div class="info__image">
-                                    <img src="/img/delivery-icon.svg" alt="delivery icon">
-                                </div>
-                                <div class="info__caption">worldwide shipping! safe and cheap *</div>
+                        <div class="footer__info">
+                            <div class="info__catalogue">
+                                <ul class="catalogue">
+                                    <li class="catalogue__tital">Catalogue</li>
+                                    <li><a class="info__link" href="#">Our vinyl</a></li>
+                                    <li><a class="info__link" href="#">Sale</a></li>
+                                    <li><a class="info__link" href="#">Gift cards</a></li>
+                                    <li><a class="info__link" href="#">Accessories</a></li>
+                                </ul>
+                            </div>
+                
+                            <div class="info__info">
+                                <ul class="info">
+                                    <li class="info__tital">Info</li>
+                                    <li><a class="info__link" href="#">FAQ</a></li>
+                                    <li><a class="info__link" href="#">Payment</a></li>
+                                    <li><a class="info__link" href="#">Delivery</a></li>
+                                    <li><a class="info__link" href="#">Reviews</a></li>
+                                </ul>
+                            </div>
+                
+                            <div class="info__contacts">
+                                <ul class="contacts">
+                                    <li class="contacts__tital">Contacts</li>
+                                    <li>+48-123-456-78</li>
+                                    <li>Warsaw, Zabkowska 11</li>
+                                    <li>vinylstore@gmail.com</li>
+                                    <ul class="contacts__social-media">
+                                        <li><ion-icon name="logo-instagram"></ion-icon></li>
+                                        <li><ion-icon name="logo-facebook"></ion-icon></li>
+                                    </ul>
+                                </ul>
                             </div>
                         </div>
                     </div>
