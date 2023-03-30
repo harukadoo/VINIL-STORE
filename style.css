@@ -28,6 +28,7 @@ button[class*="button"] {
     text-transform: uppercase;
     cursor: pointer;
     transition: 0.2s ease-out;
+    color: black;
 }
 
 button[class*="button"]:hover {
@@ -389,6 +390,7 @@ iframe{
 .form__btn {
     border: none;
     background-color: #e6e3df;
+    color: #000;
     font-size: 20px;
     margin-top: 20px;
     padding: 7px 25px;
